@@ -10,11 +10,8 @@ This program will do the following :
 - Copy the PE file to a desktop location. 
 
 # Extra
-Please note that this assumes that all binaries are .exe's, and supports x64 binaries only. (should be easy to implement within 3 minutes)
 
 If the binary is packed you'll need to dump the process's memory before trying to use byte_stinker
-
-It assumes that the binary is x64 (will release a update later to detect what type of file it is)
 
 For more PE reference refer to : [PE Format](https://docs.microsoft.com/en-us/windows/win32/debug/pe-format?redirectedfrom=MSDN)
 
